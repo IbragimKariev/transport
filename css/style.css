@@ -566,7 +566,7 @@ display: inline-block;
     border: none;
     font-size: 26px;
     padding: 3px 7px;
-    color: #0d4ea4;
+    color: #ffffff;
     outline: none;
 }
 .navbar-toggler:focus{
@@ -591,9 +591,12 @@ select {
     appearance: none;
     outline: 0;
     box-shadow: none;
-    border: 0 !important;
-    background: #2c3e50;
+    border: 1px solid #2c3e50;
+    background: #ffffff;
     background-image: none;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
 }
 /* Remove IE arrow */
 select::-ms-expand {
@@ -616,7 +619,7 @@ select::-ms-expand {
 select {
     flex: 1;
     padding: 0 .5em;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
 }
 /* Arrow */
@@ -626,7 +629,7 @@ select {
     top: 0;
     right: 0;
     padding: 0 1em;
-    background: #34495e;
+    background: #0377c4;
     cursor: pointer;
     pointer-events: none;
     -webkit-transition: .25s all ease;
