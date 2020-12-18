@@ -1,0 +1,640 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Black.eot');
+    src: url('../fonts/FiraSans-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-Black.woff2') format('woff2'),
+    url('../fonts/FiraSans-Black.woff') format('woff'),
+    url('../fonts/FiraSans-Black.ttf') format('truetype'),
+    url('../fonts/FiraSans-Black.svg#FiraSans-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-BlackItalic.eot');
+    src: url('../fonts/FiraSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-BlackItalic.woff2') format('woff2'),
+    url('../fonts/FiraSans-BlackItalic.woff') format('woff'),
+    url('../fonts/FiraSans-BlackItalic.ttf') format('truetype'),
+    url('../fonts/FiraSans-BlackItalic.svg#FiraSans-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Bold.eot');
+    src: url('../fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-Bold.woff2') format('woff2'),
+    url('../fonts/FiraSans-Bold.woff') format('woff'),
+    url('../fonts/FiraSans-Bold.ttf') format('truetype'),
+    url('../fonts/FiraSans-Bold.svg#FiraSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-ExtraLightItalic.eot');
+    src: url('../fonts/FiraSans-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-ExtraLightItalic.woff2') format('woff2'),
+    url('../fonts/FiraSans-ExtraLightItalic.woff') format('woff'),
+    url('../fonts/FiraSans-ExtraLightItalic.ttf') format('truetype'),
+    url('../fonts/FiraSans-ExtraLightItalic.svg#FiraSans-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Medium.eot');
+    src: url('../fonts/FiraSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-Medium.woff2') format('woff2'),
+    url('../fonts/FiraSans-Medium.woff') format('woff'),
+    url('../fonts/FiraSans-Medium.ttf') format('truetype'),
+    url('../fonts/FiraSans-Medium.svg#FiraSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-SemiBoldItalic.eot');
+    src: url('../fonts/FiraSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-SemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/FiraSans-SemiBoldItalic.woff') format('woff'),
+    url('../fonts/FiraSans-SemiBoldItalic.ttf') format('truetype'),
+    url('../fonts/FiraSans-SemiBoldItalic.svg#FiraSans-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-ThinItalic.eot');
+    src: url('../fonts/FiraSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-ThinItalic.woff2') format('woff2'),
+    url('../fonts/FiraSans-ThinItalic.woff') format('woff'),
+    url('../fonts/FiraSans-ThinItalic.ttf') format('truetype'),
+    url('../fonts/FiraSans-ThinItalic.svg#FiraSans-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-BoldItalic.eot');
+    src: url('../fonts/FiraSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-BoldItalic.woff2') format('woff2'),
+    url('../fonts/FiraSans-BoldItalic.woff') format('woff'),
+    url('../fonts/FiraSans-BoldItalic.ttf') format('truetype'),
+    url('../fonts/FiraSans-BoldItalic.svg#FiraSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-ExtraBold.eot');
+    src: url('../fonts/FiraSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-ExtraBold.woff2') format('woff2'),
+    url('../fonts/FiraSans-ExtraBold.woff') format('woff'),
+    url('../fonts/FiraSans-ExtraBold.ttf') format('truetype'),
+    url('../fonts/FiraSans-ExtraBold.svg#FiraSans-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Regular.eot');
+    src: url('../fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-Regular.woff2') format('woff2'),
+    url('../fonts/FiraSans-Regular.woff') format('woff'),
+    url('../fonts/FiraSans-Regular.ttf') format('truetype'),
+    url('../fonts/FiraSans-Regular.svg#FiraSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-ExtraBoldItalic.eot');
+    src: url('../fonts/FiraSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-ExtraBoldItalic.woff2') format('woff2'),
+    url('../fonts/FiraSans-ExtraBoldItalic.woff') format('woff'),
+    url('../fonts/FiraSans-ExtraBoldItalic.ttf') format('truetype'),
+    url('../fonts/FiraSans-ExtraBoldItalic.svg#FiraSans-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-MediumItalic.eot');
+    src: url('../fonts/FiraSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-MediumItalic.woff2') format('woff2'),
+    url('../fonts/FiraSans-MediumItalic.woff') format('woff'),
+    url('../fonts/FiraSans-MediumItalic.ttf') format('truetype'),
+    url('../fonts/FiraSans-MediumItalic.svg#FiraSans-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-LightItalic.eot');
+    src: url('../fonts/FiraSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-LightItalic.woff2') format('woff2'),
+    url('../fonts/FiraSans-LightItalic.woff') format('woff'),
+    url('../fonts/FiraSans-LightItalic.ttf') format('truetype'),
+    url('../fonts/FiraSans-LightItalic.svg#FiraSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Italic.eot');
+    src: url('../fonts/FiraSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-Italic.woff2') format('woff2'),
+    url('../fonts/FiraSans-Italic.woff') format('woff'),
+    url('../fonts/FiraSans-Italic.ttf') format('truetype'),
+    url('../fonts/FiraSans-Italic.svg#FiraSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-ExtraLight.eot');
+    src: url('../fonts/FiraSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-ExtraLight.woff2') format('woff2'),
+    url('../fonts/FiraSans-ExtraLight.woff') format('woff'),
+    url('../fonts/FiraSans-ExtraLight.ttf') format('truetype'),
+    url('../fonts/FiraSans-ExtraLight.svg#FiraSans-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Thin.eot');
+    src: url('../fonts/FiraSans-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-Thin.woff2') format('woff2'),
+    url('../fonts/FiraSans-Thin.woff') format('woff'),
+    url('../fonts/FiraSans-Thin.ttf') format('truetype'),
+    url('../fonts/FiraSans-Thin.svg#FiraSans-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-SemiBold.eot');
+    src: url('../fonts/FiraSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-SemiBold.woff2') format('woff2'),
+    url('../fonts/FiraSans-SemiBold.woff') format('woff'),
+    url('../fonts/FiraSans-SemiBold.ttf') format('truetype'),
+    url('../fonts/FiraSans-SemiBold.svg#FiraSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Light.eot');
+    src: url('../fonts/FiraSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-Light.woff2') format('woff2'),
+    url('../fonts/FiraSans-Light.woff') format('woff'),
+    url('../fonts/FiraSans-Light.ttf') format('truetype'),
+    url('../fonts/FiraSans-Light.svg#FiraSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans';
+}
+header{
+    top: 0;
+    background-image: url(../img/bg-head.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #2196F3;
+}
+section{
+    min-height: 50vh;
+    padding: 30px 0px;
+}
+#map {
+    height: 100vh;
+    width: 100%;
+    border-right: 1px solid #2196F3;
+    border-left: 1px solid #2196F3;
+}
+section.map{
+    padding: 0;
+    border: 1px solid #2196F3;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.navbar-brand span{
+    color: #0d4ea4;
+}
+.navbar-brand img{
+    width: 40px;
+    margin-right: 10px;
+}
+.site-footer
+{
+    background-color:#26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+}
+.site-footer hr
+{
+    border-top-color:#bbb;
+    opacity:0.5
+}
+.site-footer hr.small
+{
+    margin:20px 0
+}
+.site-footer h6
+{
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+}
+.site-footer a
+{
+    color:#737373;
+}
+.site-footer a:hover
+{
+    color:#3366cc;
+    text-decoration:none;
+}
+.footer-links
+{
+    padding-left:0;
+    list-style:none
+}
+.footer-links li
+{
+    display:block
+}
+.footer-links a
+{
+    color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+    color:#3366cc;
+    text-decoration:none;
+}
+.footer-links.inline li
+{
+    display:inline-block
+}
+.site-footer .social-icons
+{
+    text-align:right
+}
+.site-footer .social-icons a
+{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+}
+.copyright-text
+{
+    margin:0
+}
+@media (max-width:991px)
+{
+    .site-footer [class^=col-]
+    {
+        margin-bottom:30px
+    }
+}
+@media (max-width:767px)
+{
+    .site-footer
+    {
+        padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons
+    {
+        text-align:center
+    }
+}
+.social-icons
+{
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+.social-icons li
+{
+    display:inline-block;
+    margin-bottom:4px
+}
+.social-icons li.title
+{
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px
+}
+.social-icons a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+    color:#fff;
+    background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+}
+.social-icons a.facebook:hover
+{
+    background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+    background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+    background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+    background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+    .social-icons li.title
+    {
+        display:block;
+        margin-right:0;
+        font-weight:600
+    }
+}
+ul.local{
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+ul.local li{
+list-style: none;
+display: inline-block;
+}
+.navbar .nav-link{
+    padding-right: .5rem;
+    padding-left: .5rem;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.bg-light-blue {
+    background-color: #e4eef9;
+}
+.title_bx {
+    margin-bottom: 20px;
+}
+.title_bx h3.title {
+    font-size: 22px;
+    text-transform: capitalize;
+    position: relative;
+    color: #2b4d7a;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+.title_bx h3.title:before {
+    content: "";
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    top: 40px;
+    background-color: #3F51B5;
+}
+.title_bx h3.title:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    background-color: #2196F3;
+}
+#button-up {
+     display: inline-block;
+     background-color: #0d4ea4;
+     width: 50px;
+     height: 50px;
+     text-align: center;
+     position: fixed;
+     bottom: 30px;
+     right: 30px;
+     transition: background-color .3s,
+     opacity .5s, visibility .5s;
+     opacity: 0;
+     visibility: hidden;
+     z-index: 1000;
+ }
+#button-up::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+#button-up:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+#button-up:active {
+    background-color: #555;
+}
+#button-up.show {
+    opacity: 1;
+    visibility: visible;
+}
+.leaflet-control-geocoder.leaflet-bar.leaflet-control{
+    display: none;
+}
+.leaflet-bottom.leaflet-right{
+    display: none;
+}
+.bg-city{
+    background-image: url(../img/bish-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bg-city:before{
+    top: 0;
+    left: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.4;
+}
+.right-widget{
+    position: relative;
+    padding-top: 20px;
+}
+.right-widget p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+.right-widget h3{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.navbar-toggler{
+    border: none;
+    font-size: 26px;
+    padding: 3px 7px;
+    color: #0d4ea4;
+    outline: none;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.locales {
+    padding: 3px 10px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.locales.active {
+    font-weight: 300;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50;
+    background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+    display: none;
+}
+/* Custom Select */
+.select {
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+    top: 5px;
+    right: 5px;
+}
+select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #fff;
+    cursor: pointer;
+}
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+    color: #f39c12;
+}
+

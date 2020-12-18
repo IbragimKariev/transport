@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Транспорт-Бишкек</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo-mini.png">
+  <link rel="stylesheet" href="lib/leaflet.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+  <link rel="stylesheet" href="lib/MarkerCluster.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maps.api.2gis.ru/2.0/cluster_realworld.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+<header>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg ">
+      <a class="navbar-brand" href="#"><img src="img/logo-mini.png" alt=""> <span>Транспорт</span>_Бишкек</a>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ссылка</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+      <ul class="local">
+        <li><a class="locales active" href="#">Кыр</a></li>
+        <li><a class="locales" href="#">Рус</a></li>
+      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+    </nav>
+
+  </div>
+</header>
+<a id="button-up"></a>
+
+
+<main>
+
+  <section class="map container-fluid">
+
+    <div class="row mr-0">
+
+      <div id="map" class="col-md-10">
+        <div class="select">
+          <select name="slct" id="slct">
+            <option selected disabled>Выберите номер маршр.</option>
+            <option value="1">100</option>
+            <option value="2">101</option>
+            <option value="3">102</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-2 bg-city">
+        <div class="right-widget">
+          <h3>Транспорт_Бишкек
+          </h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>О сайте</h6>
+        <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Ссылки</h6>
+        <ul class="footer-links">
+          <li><a href="#">Ссылка</a></li>
+          <li><a href="#">Ссылка</a></li>
+          <li><a href="#">Ссылка</a></li>
+
+        </ul>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Ссылки</h6>
+        <ul class="footer-links">
+          <li><a href="#">Ссылка</a></li>
+          <li><a href="#">Ссылка</a></li>
+          <li><a href="#">Ссылка</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">&copy;
+          <a href="#">МП «Центр цифровых технологий»</a>.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+  <script src="lib/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <script src="lib/leaflet.markercluster.js"></script>
+  <script src="data/data.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/script.js"></script>
+<script>
+
+
+</script>
+</body>
+
+</html>
