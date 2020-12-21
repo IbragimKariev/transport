@@ -17,6 +17,7 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://maps.api.2gis.ru/2.0/cluster_realworld.js"></script>
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
@@ -61,12 +62,11 @@
 
       <div id="map" class="col-md-10">
         <div class="select">
-          <select name="slct" id="slct">
-            <option selected disabled>Выберите номер маршр.</option>
-            <option value="1">100</option>
-            <option value="2">101</option>
-            <option value="3">102</option>
-          </select>
+          <input type="text" name="city" list="busname" placeholder="Выберите маршр">
+          <datalist id="busname">
+            <option value="101">
+            <option value="102">
+          </datalist>
         </div>
       </div>
       <div class="col-md-2 bg-city">

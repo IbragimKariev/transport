@@ -530,7 +530,7 @@ display: inline-block;
     display: none;
 }
 .bg-city{
-    background-image: url(../img/bish-bg.png);
+    background-image: url(../img/bish-bg2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -622,22 +622,11 @@ select {
     color: #000000;
     cursor: pointer;
 }
-/* Arrow */
-.select::after {
-    content: '\25BC';
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0 1em;
-    background: #0377c4;
-    cursor: pointer;
-    pointer-events: none;
-    -webkit-transition: .25s all ease;
-    -o-transition: .25s all ease;
-    transition: .25s all ease;
-}
-/* Transition */
-.select:hover::after {
-    color: #f39c12;
-}
 
+
+.leaflet-marker-pane > * {
+    transition: transform .1s linear;
+}
+.select input{
+    width: 100%;
+}
